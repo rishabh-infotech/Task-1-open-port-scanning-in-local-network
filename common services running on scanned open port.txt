@@ -1,0 +1,51 @@
+External ip open port :
+
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 12:40 +0530
+Nmap scan report for 14.139.233.50
+Host is up (0.0062s latency).
+Not shown: 992 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+53/tcp   open  domain
+443/tcp  open  https
+3128/tcp open  squid-http
+4443/tcp open  pharos
+4444/tcp open  krb524
+8090/tcp open  opsmessaging
+
+Nmap done: 1 IP address (1 host up) scanned in 5.82 seconds
+
+Internal ipv4 open port :
+
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 13:35 +0530
+Nmap scan report for 172.20.8.221
+Host is up (0.0000060s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+
+Nmap done: 1 IP address (1 host up) scanned in 0.71 seconds
+
+
+port 22 SSH : Port 22 is used SSH means secure shell. It is used for cryptographic network protocol and secure remote access. If this port is not proper secured then it create security risk.
+
+port 25 smtp : Port 25 is used for simple mail transfer protocol. It is dangerous if it is open even if it is not in working because of improper security and encryption. It is common target of hacker for spamming, spoofing and denial of service (dos) attack.
+
+port 53 DNS : Port 53 is used for Domain Name Service (DNS) it is far more dangerous if this is open. hacker target it for DNS Spoofing, Ddos attack and data interception which is transmitted through DNS server.
+
+port 135 msrpc : port 135 is used for Microsoft remote procedure call  (msrpc) . It is used for remote acces in client server model. It is also dangerous if it is open. Beacuse by using this hacker can get unauthorised access and perform Ddos attack.
+
+port 139 : netbios-ssn : port 139 NetBIOS-ssn is used for file and printer sharing in older windows network and it is potentially vulnerable for data breach.
+
+port 443 https : port 443 is used for http secure. It is not dangerous if it is open itself because it used ssl/tls (secured socket layer, transport layer security). But the service running on it need to be secure.
+
+port 445 microsoft-ds : It is dangerous if it is exposed in internet. It is used as Server Message Block (SMB) . It used for file and printer sharing and target easily by attackers.
+
+port 3128 squid-http : It is used for http web proxy. If it is open to web it allows anyone from internet to access open proxy.
+
+
+
