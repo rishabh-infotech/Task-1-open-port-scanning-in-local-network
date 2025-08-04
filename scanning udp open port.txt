@@ -1,0 +1,121 @@
+Command : nmap -p 1-65535 -T4 -A -v 127.20.8.221/21
+
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 19:09 +0530
+NSE: Loaded 158 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 19:09
+Completed NSE at 19:09, 0.00s elapsed
+Initiating NSE at 19:09
+Completed NSE at 19:09, 0.00s elapsed
+Initiating NSE at 19:09
+Completed NSE at 19:09, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 19:09
+Completed Parallel DNS resolution of 1 host. at 19:09, 0.51s elapsed
+Initiating SYN Stealth Scan at 19:09
+Scanning 127.20.8.221 [1000 ports]
+Discovered open port 445/tcp on 127.20.8.221
+Discovered open port 3306/tcp on 127.20.8.221
+Discovered open port 135/tcp on 127.20.8.221
+Completed SYN Stealth Scan at 19:09, 0.11s elapsed (1000 total ports)
+Initiating UDP Scan at 19:09
+Scanning 127.20.8.221 [1000 ports]
+Increasing send delay for 127.20.8.221 from 0 to 50 due to max_successful_tryno increase to 5
+Completed UDP Scan at 19:09, 22.99s elapsed (1000 total ports)
+Initiating Service scan at 19:09
+Scanning 9 services on 127.20.8.221
+Service scan Timing: About 44.44% done; ETC: 19:13 (0:01:56 remaining)
+Completed Service scan at 19:11, 107.70s elapsed (9 services on 1 host)
+Initiating OS detection (try #1) against 127.20.8.221
+Retrying OS detection (try #2) against 127.20.8.221
+Retrying OS detection (try #3) against 127.20.8.221
+Retrying OS detection (try #4) against 127.20.8.221
+Retrying OS detection (try #5) against 127.20.8.221
+NSE: Script scanning 127.20.8.221.
+Initiating NSE at 19:11
+Completed NSE at 19:12, 42.74s elapsed
+Initiating NSE at 19:12
+NSOCK ERROR [185.9210s] poll_loop(): nsock_loop error 10022: An invalid argument was supplied. 
+NSE: Script Engine Scan Aborted.
+An error was thrown by the engine: C:\Program Files (x86)\Nmap/nse_main.lua:1078: a fatal error occurred in nsock_loop
+stack traceback:
+	[C]: in function 'nmap.socket.loop'
+	C:\Program Files (x86)\Nmap/nse_main.lua:1078: in upvalue 'run'
+	C:\Program Files (x86)\Nmap/nse_main.lua:1488: in function <C:\Program Files (x86)\Nmap/nse_main.lua:1435>
+	[C]: in ?
+Nmap scan report for 127.20.8.221
+Host is up (0.0011s latency).
+Not shown: 997 closed tcp ports (reset), 994 closed udp ports (port-unreach)
+PORT     STATE         SERVICE       VERSION
+135/tcp  open          msrpc         Microsoft Windows RPC
+445/tcp  open          microsoft-ds?
+3306/tcp open          mysql         MySQL 8.0.42
+| ssl-cert: Subject: commonName=MySQL_Server_8.0.42_Auto_Generated_Server_Certificate
+| Issuer: commonName=MySQL_Server_8.0.42_Auto_Generated_CA_Certificate
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-04-23T10:53:53
+| Not valid after:  2035-04-21T10:53:53
+| MD5:     dfce 708f 5626 2c5e a5ca 67d0 2f89 c6e6
+| SHA-1:   427f ed8a 963d 1e11 489b aa95 0654 cfd1 0ad4 4855
+|_SHA-256: fa8e e7ec 3e7c ebcc d098 f9d1 1ef6 6340 4460 ed75 a8ea ae5d 63db de00 2bb6 2ee5
+| mysql-info: 
+|   Protocol: 10
+|   Version: 8.0.42
+|   Thread ID: 10
+|   Capabilities flags: 65535
+|   Some Capabilities: LongPassword, ConnectWithDatabase, SupportsTransactions, IgnoreSpaceBeforeParenthesis, Support41Auth, SwitchToSSLAfterHandshake, IgnoreSigpipes, SupportsLoadDataLocal, LongColumnFlag, InteractiveClient, Speaks41ProtocolOld, FoundRows, Speaks41ProtocolNew, SupportsCompression, ODBCClient, DontAllowDatabaseTableColumn, SupportsMultipleResults, SupportsAuthPlugins, SupportsMultipleStatments
+|   Status: Autocommit
+|   Salt: \x17f\x0Fx\\x1F\x01Ycw eq8\x1FD4\x01F]
+|_  Auth Plugin Name: caching_sha2_password
+123/udp  open|filtered ntp
+137/udp  open|filtered netbios-ns
+4500/udp open|filtered nat-t-ike
+5050/udp open|filtered mmcc
+5353/udp open|filtered zeroconf
+5355/udp open|filtered llmnr
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.97%E=4%D=8/4%OT=135%CT=1%CU=2%PV=Y%DS=0%DC=L%G=Y%TM=6890B8BA%P=
+OS:i686-pc-windows-windows)SEQ(SP=100%GCD=1%ISR=107%TI=I%CI=I%II=I%SS=S%TS=
+OS:A)SEQ(SP=103%GCD=1%ISR=101%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=103%GCD=1%ISR
+OS:=108%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=103%GCD=1%ISR=109%TI=I%CI=I%II=I%SS
+OS:=S%TS=A)SEQ(SP=105%GCD=1%ISR=10C%TI=I%CI=I%II=I%SS=S%TS=A)OPS(O1=MFFD7NW
+OS:8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT11%O4=MFFD7NW8ST11%O5=MFFD7NW8ST11%O
+OS:6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%
+OS:DF=Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD
+OS:=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%
+OS:S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD
+OS:=Z)
+
+Uptime guess: 0.300 days (since Mon Aug  4 11:59:45 2025)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2025-08-04T13:41:38
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+
+NSE: Script Post-scanning.
+Initiating NSE at 19:12
+NSOCK ERROR [185.9310s] poll_loop(): nsock_loop error 10022: An invalid argument was supplied. 
+NSE: Script Engine Scan Aborted.
+An error was thrown by the engine: C:\Program Files (x86)\Nmap/nse_main.lua:1078: a fatal error occurred in nsock_loop
+stack traceback:
+	[C]: in function 'nmap.socket.loop'
+	C:\Program Files (x86)\Nmap/nse_main.lua:1078: in upvalue 'run'
+	C:\Program Files (x86)\Nmap/nse_main.lua:1488: in function <C:\Program Files (x86)\Nmap/nse_main.lua:1435>
+	[C]: in ?
+Read data files from: C:\Program Files (x86)\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 185.93 seconds
+           Raw packets sent: 2554 (121.446KB) | Rcvd: 2121 (124.461KB)

@@ -1,0 +1,603 @@
+
+
+command : nmap -sS 127.20.8.221/21
+
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 15:48 +0530
+Nmap scan report for 172.20.8.1
+Host is up (0.022s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+23/tcp open  telnet
+MAC Address: 54:77:8A:E8:10:88 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.2
+Host is up (0.024s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:4E:08 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.3
+Host is up (0.023s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:21:00 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.4
+Host is up (0.029s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:1B:2E (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.5
+Host is up (0.020s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:39:4A (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.6
+Host is up (0.022s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:1E:4C (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.7
+Host is up (0.021s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:46:42 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.8
+Host is up (0.026s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:6D:6C (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.9
+Host is up (0.024s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:6B:A2 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.10
+Host is up (0.020s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:2F:96 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.11
+Host is up (0.025s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:25:30 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.12
+Host is up (0.012s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:3E:C0 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.13
+Host is up (0.018s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:39:BE (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.14
+Host is up (0.026s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:19:7E (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.15
+Host is up (0.026s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:5C:A8 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.16
+Host is up (0.026s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:28:C8 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.17
+Host is up (0.025s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:4D:90 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.18
+Host is up (0.025s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:1C:7A (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.19
+Host is up (0.024s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:5E:2E (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.20
+Host is up (0.026s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:30:A8 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.21
+Host is up (0.023s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:41:7A (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.22
+Host is up (0.023s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: DC:B7:AC:C6:C7:A4 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.23
+Host is up (0.022s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:18:2E (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.24
+Host is up (0.028s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:5D:04 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.25
+Host is up (0.025s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:32:1E (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.26
+Host is up (0.024s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:37:50 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.27
+Host is up (0.021s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:7E:D2 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.28
+Host is up (0.023s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:68:C2 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.29
+Host is up (0.024s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:89:F2 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.30
+Host is up (0.018s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:25:92 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.31
+Host is up (0.021s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:63:E6 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.32
+Host is up (0.023s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:61:D8 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.33
+Host is up (0.015s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:2B:CC (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.34
+Host is up (0.019s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:32:78 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.35
+Host is up (0.025s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:1E:74 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.36
+Host is up (0.025s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:44:68 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.37
+Host is up (0.019s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:7F:EC (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.38
+Host is up (0.018s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:1B:36 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.39
+Host is up (0.021s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:17:E6 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.40
+Host is up (0.020s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:48:1A (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.41
+Host is up (0.020s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:25:74 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.42
+Host is up (0.020s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:22:2C (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.43
+Host is up (0.021s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:6B:42 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.44
+Host is up (0.018s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:33:74 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.45
+Host is up (0.024s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: CC:88:C7:C0:8B:DA (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.46
+Host is up (0.021s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:73:1E (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.47
+Host is up (0.027s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:21:52 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.48
+Host is up (0.025s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:5F:2C (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.49
+Host is up (0.028s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:8A:6A (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.50
+Host is up (0.027s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:24:74 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.51
+Host is up (0.017s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:79:58 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.52
+Host is up (0.019s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:87:46 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.53
+Host is up (0.018s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:41:2E (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.54
+Host is up (0.027s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:73:2E (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.55
+Host is up (0.022s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:82:C8 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.56
+Host is up (0.024s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:6E:5A (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.57
+Host is up (0.016s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:3A:50 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.58
+Host is up (0.021s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:1C:1C (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.59
+Host is up (0.020s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:27:FA (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.60
+Host is up (0.021s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:82:86 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.61
+Host is up (0.021s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:7F:22 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.62
+Host is up (0.023s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:64:94 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.63
+Host is up (0.027s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:44:24 (Hewlett Packard Enterprise)
+
+Nmap scan report for 172.20.8.64
+Host is up (0.022s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+8080/tcp open     http-proxy
+8081/tcp open     blackice-icecap
+MAC Address: 20:9C:B4:C4:31:22 (Hewlett Packard Enterprise)
+
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0

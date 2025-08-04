@@ -1,0 +1,47 @@
+Get to know local ipv4 address and cidr
+
+C:\Users\risha>ipconfig
+
+Windows IP Configuration
+
+
+Unknown adapter Local Area Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::5309:c2d:99a7:d08b%4
+   IPv4 Address. . . . . . . . . . . : 172.20.8.221
+   Subnet Mask . . . . . . . . . . . : 255.255.248.0
+   Default Gateway . . . . . . . . . : 172.20.8.1
+
+
+
+
+
+ipv4 address : 32 bit
+
+subnet mask in binary : 11111111 11111111 11111000 00000000
+
+network id : 21 bit
+network id : 172.20.8.0  (AND operation between ip address and subnet mask)
+host id : 11 bit
+total possible host : (2)11 = 2048-2 = 2046
+local ipv4 range : 172.20.8.0 to 172.20.15.255
+
+ipv4 address in cidr notation : 172.20.8.221/21
+
+

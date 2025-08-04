@@ -1,0 +1,36 @@
+open port of external ip 14.139.233.50 
+	
+	nmap -sS 14.139.233.50 :
+
+	Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 12:40 +0530
+	Nmap scan report for 14.139.233.50
+	Host is up (0.0062s latency).
+	Not shown: 992 filtered tcp ports (no-response)
+	PORT     STATE SERVICE
+	22/tcp   open  ssh
+	25/tcp   open  smtp
+	53/tcp   open  domain
+	443/tcp  open  https
+	3128/tcp open  squid-http
+	4443/tcp open  pharos
+	4444/tcp open  krb524
+	8090/tcp open  opsmessaging
+
+	Nmap done: 1 IP address (1 host up) scanned in 5.82 seconds
+
+
+Open Port Of internal ip 172.20.8.221
+
+	nmap -sS 172.20.8.255 : 
+
+	Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 13:35 +0530
+	Nmap scan report for 172.20.8.221
+	Host is up (0.0000060s latency).
+	Not shown: 996 closed tcp ports (reset)
+	PORT     STATE SERVICE
+	135/tcp  open  msrpc
+	139/tcp  open  netbios-ssn
+	445/tcp  open  microsoft-ds
+	3306/tcp open  mysql
+
+	Nmap done: 1 IP address (1 host up) scanned in 0.71 seconds

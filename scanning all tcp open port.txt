@@ -1,0 +1,1012 @@
+Command : nmap -p 1-65535 -T4 -A -v 127.20.8.221/21
+
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 19:14 +0530
+NSE: Loaded 158 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 19:14
+Completed NSE at 19:14, 0.00s elapsed
+Initiating NSE at 19:14
+Completed NSE at 19:14, 0.00s elapsed
+Initiating NSE at 19:14
+Completed NSE at 19:14, 0.00s elapsed
+Initiating Parallel DNS resolution of 2048 hosts. at 19:14
+Completed Parallel DNS resolution of 2048 hosts. at 19:15, 24.28s elapsed
+Initiating SYN Stealth Scan at 19:15
+Scanning 8 hosts [65535 ports/host]
+Discovered open port 3306/tcp on 127.20.8.1
+Discovered open port 3306/tcp on 127.20.8.2
+Discovered open port 3306/tcp on 127.20.8.3
+Discovered open port 3306/tcp on 127.20.8.4
+Discovered open port 3306/tcp on 127.20.8.5
+Discovered open port 3306/tcp on 127.20.8.6
+Discovered open port 3306/tcp on 127.20.8.7
+Discovered open port 3306/tcp on 127.20.8.0
+Discovered open port 135/tcp on 127.20.8.5
+Discovered open port 135/tcp on 127.20.8.6
+Discovered open port 135/tcp on 127.20.8.7
+Discovered open port 135/tcp on 127.20.8.0
+Discovered open port 135/tcp on 127.20.8.1
+Discovered open port 135/tcp on 127.20.8.2
+Discovered open port 135/tcp on 127.20.8.3
+Discovered open port 135/tcp on 127.20.8.4
+Discovered open port 445/tcp on 127.20.8.5
+Discovered open port 445/tcp on 127.20.8.6
+Discovered open port 445/tcp on 127.20.8.7
+Discovered open port 445/tcp on 127.20.8.0
+Discovered open port 445/tcp on 127.20.8.1
+Discovered open port 445/tcp on 127.20.8.2
+Discovered open port 445/tcp on 127.20.8.3
+Discovered open port 445/tcp on 127.20.8.4
+Discovered open port 55385/tcp on 127.20.8.5
+Discovered open port 55385/tcp on 127.20.8.6
+Discovered open port 55385/tcp on 127.20.8.1
+Discovered open port 55385/tcp on 127.20.8.2
+Discovered open port 55385/tcp on 127.20.8.7
+Discovered open port 55385/tcp on 127.20.8.0
+Discovered open port 55385/tcp on 127.20.8.3
+Discovered open port 55385/tcp on 127.20.8.4
+Discovered open port 33060/tcp on 127.20.8.5
+Discovered open port 33060/tcp on 127.20.8.6
+Discovered open port 33060/tcp on 127.20.8.1
+Discovered open port 33060/tcp on 127.20.8.2
+Discovered open port 33060/tcp on 127.20.8.7
+Discovered open port 33060/tcp on 127.20.8.0
+Discovered open port 33060/tcp on 127.20.8.3
+Discovered open port 33060/tcp on 127.20.8.4
+Discovered open port 49664/tcp on 127.20.8.5
+Discovered open port 49664/tcp on 127.20.8.6
+Discovered open port 49664/tcp on 127.20.8.1
+Discovered open port 49664/tcp on 127.20.8.2
+Discovered open port 49664/tcp on 127.20.8.7
+Discovered open port 49664/tcp on 127.20.8.0
+Discovered open port 49664/tcp on 127.20.8.3
+Discovered open port 49664/tcp on 127.20.8.4
+Discovered open port 5040/tcp on 127.20.8.5
+Discovered open port 5040/tcp on 127.20.8.6
+Discovered open port 5040/tcp on 127.20.8.1
+Discovered open port 5040/tcp on 127.20.8.2
+Discovered open port 5040/tcp on 127.20.8.7
+Discovered open port 5040/tcp on 127.20.8.0
+Discovered open port 5040/tcp on 127.20.8.3
+Discovered open port 5040/tcp on 127.20.8.4
+Discovered open port 49668/tcp on 127.20.8.5
+Discovered open port 49668/tcp on 127.20.8.6
+Discovered open port 49668/tcp on 127.20.8.1
+Discovered open port 49668/tcp on 127.20.8.2
+Discovered open port 49668/tcp on 127.20.8.7
+Discovered open port 49668/tcp on 127.20.8.3
+Discovered open port 49668/tcp on 127.20.8.4
+Discovered open port 49668/tcp on 127.20.8.0
+Discovered open port 49696/tcp on 127.20.8.6
+Discovered open port 49696/tcp on 127.20.8.2
+Discovered open port 49696/tcp on 127.20.8.5
+Discovered open port 49696/tcp on 127.20.8.1
+Discovered open port 49696/tcp on 127.20.8.7
+Discovered open port 49696/tcp on 127.20.8.3
+Discovered open port 49696/tcp on 127.20.8.4
+Discovered open port 49696/tcp on 127.20.8.0
+Discovered open port 49665/tcp on 127.20.8.6
+Discovered open port 49665/tcp on 127.20.8.2
+Discovered open port 49665/tcp on 127.20.8.5
+Discovered open port 49665/tcp on 127.20.8.1
+Discovered open port 49665/tcp on 127.20.8.7
+Discovered open port 49665/tcp on 127.20.8.3
+Discovered open port 49672/tcp on 127.20.8.6
+Discovered open port 49672/tcp on 127.20.8.2
+Discovered open port 49665/tcp on 127.20.8.0
+Discovered open port 49665/tcp on 127.20.8.4
+Discovered open port 49672/tcp on 127.20.8.1
+Discovered open port 49672/tcp on 127.20.8.5
+Discovered open port 49672/tcp on 127.20.8.7
+Discovered open port 49672/tcp on 127.20.8.3
+Discovered open port 49672/tcp on 127.20.8.0
+Discovered open port 49672/tcp on 127.20.8.4
+Discovered open port 49669/tcp on 127.20.8.6
+Discovered open port 49669/tcp on 127.20.8.2
+Completed SYN Stealth Scan against 127.20.8.6 in 26.74s (7 hosts left)
+Completed SYN Stealth Scan against 127.20.8.2 in 26.75s (6 hosts left)
+Discovered open port 49669/tcp on 127.20.8.1
+Discovered open port 49669/tcp on 127.20.8.5
+Discovered open port 49669/tcp on 127.20.8.0
+Discovered open port 49669/tcp on 127.20.8.4
+Discovered open port 49669/tcp on 127.20.8.3
+Discovered open port 49669/tcp on 127.20.8.7
+Completed SYN Stealth Scan against 127.20.8.1 in 27.01s (5 hosts left)
+Completed SYN Stealth Scan against 127.20.8.5 in 27.01s (4 hosts left)
+Completed SYN Stealth Scan against 127.20.8.0 in 27.03s (3 hosts left)
+Completed SYN Stealth Scan against 127.20.8.4 in 27.04s (2 hosts left)
+Completed SYN Stealth Scan against 127.20.8.3 in 27.06s (1 host left)
+Completed SYN Stealth Scan at 19:15, 27.06s elapsed (524280 total ports)
+Initiating Service scan at 19:15
+Scanning 96 services on 8 hosts
+Service scan Timing: About 26.04% done; ETC: 19:19 (0:02:31 remaining)
+Service scan Timing: About 67.71% done; ETC: 19:17 (0:00:40 remaining)
+Completed Service scan at 19:18, 145.61s elapsed (96 services on 8 hosts)
+Initiating OS detection (try #1) against 8 hosts
+Retrying OS detection (try #2) against 8 hosts
+Retrying OS detection (try #3) against 8 hosts
+Retrying OS detection (try #4) against 8 hosts
+Retrying OS detection (try #5) against 8 hosts
+NSE: Script scanning 8 hosts.
+Initiating NSE at 19:18
+Completed NSE at 19:19, 61.43s elapsed
+Initiating NSE at 19:19
+NSOCK ERROR [271.0660s] poll_loop(): nsock_loop error 10022: An invalid argument was supplied. 
+NSE: Script Engine Scan Aborted.
+An error was thrown by the engine: C:\Program Files (x86)\Nmap/nse_main.lua:1078: a fatal error occurred in nsock_loop
+stack traceback:
+	[C]: in function 'nmap.socket.loop'
+	C:\Program Files (x86)\Nmap/nse_main.lua:1078: in upvalue 'run'
+	C:\Program Files (x86)\Nmap/nse_main.lua:1488: in function <C:\Program Files (x86)\Nmap/nse_main.lua:1435>
+	[C]: in ?
+Nmap scan report for 127.20.8.0
+Host is up (0.0015s latency).
+Not shown: 65522 closed tcp ports (reset)
+PORT      STATE    SERVICE       VERSION
+135/tcp   open     msrpc         Microsoft Windows RPC
+137/tcp   filtered netbios-ns
+445/tcp   open     microsoft-ds?
+3306/tcp  open     mysql         MySQL 8.0.42
+| mysql-info: 
+|   Protocol: 10
+|   Version: 8.0.42
+|   Thread ID: 34
+|   Capabilities flags: 65535
+|   Some Capabilities: ODBCClient, Support41Auth, IgnoreSpaceBeforeParenthesis, Speaks41ProtocolOld, LongPassword, SupportsLoadDataLocal, SupportsTransactions, FoundRows, DontAllowDatabaseTableColumn, ConnectWithDatabase, IgnoreSigpipes, SupportsCompression, InteractiveClient, LongColumnFlag, SwitchToSSLAfterHandshake, Speaks41ProtocolNew, SupportsMultipleStatments, SupportsAuthPlugins, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: P4\x07!GYtmit\x1AA4\x14.\x1E,ady
+|_  Auth Plugin Name: caching_sha2_password
+5040/tcp  open     unknown
+33060/tcp open     mysqlx        MySQL X protocol listener
+49664/tcp open     msrpc         Microsoft Windows RPC
+49665/tcp open     msrpc         Microsoft Windows RPC
+49668/tcp open     msrpc         Microsoft Windows RPC
+49669/tcp open     msrpc         Microsoft Windows RPC
+49672/tcp open     msrpc         Microsoft Windows RPC
+49696/tcp open     msrpc         Microsoft Windows RPC
+55385/tcp open     tcpwrapped
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.97%E=4%D=8/4%OT=135%CT=1%CU=44216%PV=Y%DS=0%DC=L%G=Y%TM=6890BA6
+OS:3%P=i686-pc-windows-windows)SEQ(SP=105%GCD=1%ISR=10B%TI=I%CI=I%II=I%SS=S
+OS:%TS=A)SEQ(SP=F9%GCD=1%ISR=104%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=FA%GCD=1%I
+OS:SR=10E%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=FD%GCD=1%ISR=10C%TI=I%CI=I%II=I%S
+OS:S=S%TS=A)SEQ(SP=FF%GCD=2%ISR=101%TI=I%CI=I%II=I%SS=S%TS=A)OPS(O1=MFFD7NW
+OS:8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT11%O4=MFFD7NW8ST11%O5=MFFD7NW8ST11%O
+OS:6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%
+OS:DF=Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD
+OS:=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%
+OS:S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD
+OS:=Z)
+
+Uptime guess: 0.305 days (since Mon Aug  4 11:59:45 2025)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2025-08-04T13:48:24
+|_  start_date: N/A
+
+Nmap scan report for 127.20.8.1
+Host is up (0.00083s latency).
+Not shown: 65522 closed tcp ports (reset)
+PORT      STATE    SERVICE       VERSION
+135/tcp   open     msrpc         Microsoft Windows RPC
+137/tcp   filtered netbios-ns
+445/tcp   open     microsoft-ds?
+3306/tcp  open     mysql         MySQL 8.0.42
+| mysql-info: 
+|   Protocol: 10
+|   Version: 8.0.42
+|   Thread ID: 32
+|   Capabilities flags: 65535
+|   Some Capabilities: ODBCClient, Support41Auth, IgnoreSpaceBeforeParenthesis, Speaks41ProtocolOld, LongPassword, SupportsLoadDataLocal, SupportsTransactions, FoundRows, DontAllowDatabaseTableColumn, ConnectWithDatabase, IgnoreSigpipes, SupportsCompression, InteractiveClient, LongColumnFlag, SwitchToSSLAfterHandshake, Speaks41ProtocolNew, SupportsMultipleStatments, SupportsAuthPlugins, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: >Q?/\x17\x12*y\x0E63~\x12 (dp	\x17\x0D
+|_  Auth Plugin Name: caching_sha2_password
+5040/tcp  open     unknown
+33060/tcp open     mysqlx        MySQL X protocol listener
+49664/tcp open     msrpc         Microsoft Windows RPC
+49665/tcp open     msrpc         Microsoft Windows RPC
+49668/tcp open     msrpc         Microsoft Windows RPC
+49669/tcp open     msrpc         Microsoft Windows RPC
+49672/tcp open     msrpc         Microsoft Windows RPC
+49696/tcp open     msrpc         Microsoft Windows RPC
+55385/tcp open     tcpwrapped
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.97%E=4%D=8/4%OT=135%CT=1%CU=34766%PV=Y%DS=0%DC=L%G=Y%TM=6890BA6
+OS:3%P=i686-pc-windows-windows)SEQ(SP=101%GCD=1%ISR=106%TI=I%CI=I%II=I%SS=S
+OS:%TS=A)SEQ(SP=105%GCD=1%ISR=107%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=FA%GCD=1%
+OS:ISR=106%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=FF%GCD=1%ISR=10E%TI=I%CI=I%II=I%
+OS:SS=S%TS=A)OPS(O1=MFFD7NW8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT11%O4=MFFD7N
+OS:W8ST11%O5=MFFD7NW8ST11%O6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%
+OS:W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%DF
+OS:=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%
+OS:Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A
+OS:%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y
+OS:%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR
+OS:%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%RU
+OS:D=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Uptime guess: 0.305 days (since Mon Aug  4 11:59:45 2025)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=250 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2025-08-04T13:48:29
+|_  start_date: N/A
+
+Nmap scan report for 127.20.8.2
+Host is up (0.00080s latency).
+Not shown: 65522 closed tcp ports (reset)
+PORT      STATE    SERVICE       VERSION
+135/tcp   open     msrpc         Microsoft Windows RPC
+137/tcp   filtered netbios-ns
+445/tcp   open     microsoft-ds?
+3306/tcp  open     mysql         MySQL 8.0.42
+| mysql-info: 
+|   Protocol: 10
+|   Version: 8.0.42
+|   Thread ID: 36
+|   Capabilities flags: 65535
+|   Some Capabilities: ODBCClient, Support41Auth, IgnoreSpaceBeforeParenthesis, Speaks41ProtocolOld, LongPassword, SupportsLoadDataLocal, SupportsTransactions, FoundRows, DontAllowDatabaseTableColumn, ConnectWithDatabase, IgnoreSigpipes, SupportsCompression, InteractiveClient, LongColumnFlag, SwitchToSSLAfterHandshake, Speaks41ProtocolNew, SupportsMultipleStatments, SupportsAuthPlugins, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: \x01/)%zg5Ff_\x10X\x12vRa \x15gf
+|_  Auth Plugin Name: caching_sha2_password
+| ssl-cert: Subject: commonName=MySQL_Server_8.0.42_Auto_Generated_Server_Certificate
+| Issuer: commonName=MySQL_Server_8.0.42_Auto_Generated_CA_Certificate
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-04-23T10:53:53
+| Not valid after:  2035-04-21T10:53:53
+| MD5:     dfce 708f 5626 2c5e a5ca 67d0 2f89 c6e6
+| SHA-1:   427f ed8a 963d 1e11 489b aa95 0654 cfd1 0ad4 4855
+|_SHA-256: fa8e e7ec 3e7c ebcc d098 f9d1 1ef6 6340 4460 ed75 a8ea ae5d 63db de00 2bb6 2ee5
+5040/tcp  open     unknown
+33060/tcp open     mysqlx        MySQL X protocol listener
+49664/tcp open     msrpc         Microsoft Windows RPC
+49665/tcp open     msrpc         Microsoft Windows RPC
+49668/tcp open     msrpc         Microsoft Windows RPC
+49669/tcp open     msrpc         Microsoft Windows RPC
+49672/tcp open     msrpc         Microsoft Windows RPC
+49696/tcp open     msrpc         Microsoft Windows RPC
+55385/tcp open     unknown
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.97%E=4%D=8/4%OT=135%CT=1%CU=35055%PV=Y%DS=0%DC=L%G=Y%TM=6890BA6
+OS:3%P=i686-pc-windows-windows)SEQ(SP=103%GCD=1%ISR=10A%TI=I%CI=I%II=I%SS=S
+OS:%TS=A)SEQ(SP=104%GCD=1%ISR=10B%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=105%GCD=1
+OS:%ISR=106%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=106%GCD=1%ISR=108%TI=I%CI=I%II=
+OS:I%SS=S%TS=A)SEQ(SP=FB%GCD=1%ISR=10F%TI=I%CI=I%II=I%SS=S%TS=A)OPS(O1=MFFD
+OS:7NW8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT11%O4=MFFD7NW8ST11%O5=MFFD7NW8ST1
+OS:1%O6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R
+OS:=Y%DF=Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS
+OS:%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W
+OS:=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T
+OS:5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=
+OS:O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF
+OS:=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80
+OS:%CD=Z)
+
+Uptime guess: 0.305 days (since Mon Aug  4 11:59:45 2025)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2025-08-04T13:48:36
+|_  start_date: N/A
+
+Nmap scan report for 127.20.8.3
+Host is up (0.00063s latency).
+Not shown: 65522 closed tcp ports (reset)
+PORT      STATE    SERVICE       VERSION
+135/tcp   open     msrpc         Microsoft Windows RPC
+137/tcp   filtered netbios-ns
+445/tcp   open     microsoft-ds?
+3306/tcp  open     mysql         MySQL 8.0.42
+| mysql-info: 
+|   Protocol: 10
+|   Version: 8.0.42
+|   Thread ID: 41
+|   Capabilities flags: 65535
+|   Some Capabilities: ODBCClient, Support41Auth, IgnoreSpaceBeforeParenthesis, Speaks41ProtocolOld, LongPassword, SupportsLoadDataLocal, SupportsTransactions, FoundRows, DontAllowDatabaseTableColumn, ConnectWithDatabase, IgnoreSigpipes, SupportsCompression, InteractiveClient, LongColumnFlag, SwitchToSSLAfterHandshake, Speaks41ProtocolNew, SupportsMultipleStatments, SupportsAuthPlugins, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: kq\x1A:;kJ4\\x162id)e.
+| \x17 B
+|_  Auth Plugin Name: caching_sha2_password
+5040/tcp  open     unknown
+33060/tcp open     mysqlx        MySQL X protocol listener
+49664/tcp open     msrpc         Microsoft Windows RPC
+49665/tcp open     msrpc         Microsoft Windows RPC
+49668/tcp open     msrpc         Microsoft Windows RPC
+49669/tcp open     msrpc         Microsoft Windows RPC
+49672/tcp open     msrpc         Microsoft Windows RPC
+49696/tcp open     msrpc         Microsoft Windows RPC
+55385/tcp open     tcpwrapped
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.97%E=4%D=8/4%OT=135%CT=1%CU=38725%PV=Y%DS=0%DC=L%G=Y%TM=6890BA6
+OS:3%P=i686-pc-windows-windows)SEQ(SP=102%GCD=1%ISR=10D%TI=I%CI=I%II=I%SS=S
+OS:%TS=A)SEQ(SP=105%GCD=1%ISR=108%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=105%GCD=1
+OS:%ISR=10A%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=FC%GCD=1%ISR=FF%TI=I%CI=I%II=I%
+OS:SS=S%TS=A)SEQ(SP=FF%GCD=1%ISR=108%TI=I%CI=I%II=I%SS=S%TS=A)OPS(O1=MFFD7N
+OS:W8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT11%O4=MFFD7NW8ST11%O5=MFFD7NW8ST11%
+OS:O6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y
+OS:%DF=Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%R
+OS:D=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0
+OS:%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(
+OS:R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%
+OS:F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N
+OS:%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%C
+OS:D=Z)
+
+Uptime guess: 0.305 days (since Mon Aug  4 11:59:45 2025)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2025-08-04T13:48:40
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+
+Nmap scan report for 127.20.8.4
+Host is up (0.00047s latency).
+Not shown: 65522 closed tcp ports (reset)
+PORT      STATE    SERVICE       VERSION
+135/tcp   open     msrpc         Microsoft Windows RPC
+137/tcp   filtered netbios-ns
+445/tcp   open     microsoft-ds?
+3306/tcp  open     mysql         MySQL 8.0.42
+| mysql-info: 
+|   Protocol: 10
+|   Version: 8.0.42
+|   Thread ID: 42
+|   Capabilities flags: 65535
+|   Some Capabilities: ODBCClient, Support41Auth, IgnoreSpaceBeforeParenthesis, Speaks41ProtocolOld, LongPassword, SupportsLoadDataLocal, SupportsTransactions, FoundRows, DontAllowDatabaseTableColumn, ConnectWithDatabase, IgnoreSigpipes, SupportsCompression, InteractiveClient, LongColumnFlag, SwitchToSSLAfterHandshake, Speaks41ProtocolNew, SupportsMultipleStatments, SupportsAuthPlugins, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: TQ\x04\x03V.%\x14\x14|1\x1Db>\x1Ef.\x1D\x1Do
+|_  Auth Plugin Name: caching_sha2_password
+5040/tcp  open     unknown
+33060/tcp open     mysqlx        MySQL X protocol listener
+49664/tcp open     msrpc         Microsoft Windows RPC
+49665/tcp open     msrpc         Microsoft Windows RPC
+49668/tcp open     msrpc         Microsoft Windows RPC
+49669/tcp open     msrpc         Microsoft Windows RPC
+49672/tcp open     msrpc         Microsoft Windows RPC
+49696/tcp open     msrpc         Microsoft Windows RPC
+55385/tcp open     tcpwrapped
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.97%E=4%D=8/4%OT=135%CT=1%CU=40352%PV=Y%DS=0%DC=L%G=Y%TM=6890BA6
+OS:3%P=i686-pc-windows-windows)SEQ(SP=102%GCD=1%ISR=109%TI=I%CI=I%II=I%SS=S
+OS:%TS=A)SEQ(SP=102%GCD=1%ISR=10C%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=105%GCD=1
+OS:%ISR=10A%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=F7%GCD=1%ISR=106%TI=I%CI=I%II=I
+OS:%SS=S%TS=A)SEQ(SP=FF%GCD=1%ISR=106%TI=I%CI=I%II=I%SS=S%TS=A)OPS(O1=MFFD7
+OS:NW8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT11%O4=MFFD7NW8ST11%O5=MFFD7NW8ST11
+OS:%O6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=
+OS:Y%DF=Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%
+OS:RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=
+OS:0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5
+OS:(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O
+OS:%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=
+OS:N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%
+OS:CD=Z)
+
+Uptime guess: 0.305 days (since Mon Aug  4 11:59:45 2025)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2025-08-04T13:48:47
+|_  start_date: N/A
+
+Nmap scan report for 127.20.8.5
+Host is up (0.00042s latency).
+Not shown: 65522 closed tcp ports (reset)
+PORT      STATE    SERVICE       VERSION
+135/tcp   open     msrpc         Microsoft Windows RPC
+137/tcp   filtered netbios-ns
+445/tcp   open     microsoft-ds?
+3306/tcp  open     mysql         MySQL 8.0.42
+| mysql-info: 
+|   Protocol: 10
+|   Version: 8.0.42
+|   Thread ID: 45
+|   Capabilities flags: 65535
+|   Some Capabilities: ODBCClient, Support41Auth, IgnoreSpaceBeforeParenthesis, Speaks41ProtocolOld, LongPassword, SupportsLoadDataLocal, SupportsTransactions, FoundRows, DontAllowDatabaseTableColumn, ConnectWithDatabase, IgnoreSigpipes, SupportsCompression, InteractiveClient, LongColumnFlag, SwitchToSSLAfterHandshake, Speaks41ProtocolNew, SupportsMultipleStatments, SupportsAuthPlugins, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: *~sh\x17X0J\x0Eg\x1B}!KfvAA\x14:
+|_  Auth Plugin Name: caching_sha2_password
+5040/tcp  open     unknown
+33060/tcp open     mysqlx        MySQL X protocol listener
+49664/tcp open     msrpc         Microsoft Windows RPC
+49665/tcp open     msrpc         Microsoft Windows RPC
+49668/tcp open     msrpc         Microsoft Windows RPC
+49669/tcp open     msrpc         Microsoft Windows RPC
+49672/tcp open     msrpc         Microsoft Windows RPC
+49696/tcp open     msrpc         Microsoft Windows RPC
+55385/tcp open     tcpwrapped
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.97%E=4%D=8/4%OT=135%CT=1%CU=30792%PV=Y%DS=0%DC=L%G=Y%TM=6890BA6
+OS:3%P=i686-pc-windows-windows)SEQ(SP=100%GCD=1%ISR=104%TI=I%CI=I%II=I%SS=S
+OS:%TS=A)SEQ(SP=100%GCD=1%ISR=108%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=102%GCD=1
+OS:%ISR=101%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=102%GCD=1%ISR=105%TI=I%CI=I%II=
+OS:I%SS=S%TS=A)SEQ(SP=104%GCD=1%ISR=10D%TI=I%CI=I%II=I%SS=S%TS=A)OPS(O1=MFF
+OS:D7NW8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT11%O4=MFFD7NW8ST11%O5=MFFD7NW8ST
+OS:11%O6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(
+OS:R=Y%DF=Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%
+OS:W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)
+OS:T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A
+OS:=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%D
+OS:F=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=8
+OS:0%CD=Z)
+
+Uptime guess: 0.305 days (since Mon Aug  4 11:59:45 2025)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2025-08-04T13:48:51
+|_  start_date: N/A
+
+Nmap scan report for 127.20.8.6
+Host is up (0.00026s latency).
+Not shown: 65522 closed tcp ports (reset)
+PORT      STATE    SERVICE       VERSION
+135/tcp   open     msrpc         Microsoft Windows RPC
+137/tcp   filtered netbios-ns
+445/tcp   open     microsoft-ds?
+3306/tcp  open     mysql         MySQL 8.0.42
+| mysql-info: 
+|   Protocol: 10
+|   Version: 8.0.42
+|   Thread ID: 47
+|   Capabilities flags: 65535
+|   Some Capabilities: ODBCClient, Support41Auth, IgnoreSpaceBeforeParenthesis, Speaks41ProtocolOld, LongPassword, SupportsLoadDataLocal, SupportsTransactions, FoundRows, DontAllowDatabaseTableColumn, ConnectWithDatabase, IgnoreSigpipes, SupportsCompression, InteractiveClient, LongColumnFlag, SwitchToSSLAfterHandshake, Speaks41ProtocolNew, SupportsMultipleStatments, SupportsAuthPlugins, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: 9VA5QSM\x11UP-=:uN!YF+{
+|_  Auth Plugin Name: caching_sha2_password
+5040/tcp  open     unknown
+33060/tcp open     mysqlx        MySQL X protocol listener
+49664/tcp open     msrpc         Microsoft Windows RPC
+49665/tcp open     msrpc         Microsoft Windows RPC
+49668/tcp open     msrpc         Microsoft Windows RPC
+49669/tcp open     msrpc         Microsoft Windows RPC
+49672/tcp open     msrpc         Microsoft Windows RPC
+49696/tcp open     msrpc         Microsoft Windows RPC
+55385/tcp open     tcpwrapped
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.97%E=4%D=8/4%OT=135%CT=1%CU=41176%PV=Y%DS=0%DC=L%G=Y%TM=6890BA6
+OS:3%P=i686-pc-windows-windows)SEQ(SP=103%GCD=1%ISR=107%TI=I%CI=I%II=I%SS=S
+OS:%TS=A)SEQ(SP=103%GCD=1%ISR=108%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=104%GCD=1
+OS:%ISR=106%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=FE%GCD=1%ISR=102%TI=I%CI=I%II=I
+OS:%SS=S%TS=A)OPS(O1=MFFD7NW8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT11%O4=MFFD7
+OS:NW8ST11%O5=MFFD7NW8ST11%O6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF
+OS:%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%D
+OS:F=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0
+OS:%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=
+OS:A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=
+OS:Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=A
+OS:R%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%R
+OS:UD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Uptime guess: 0.305 days (since Mon Aug  4 11:59:45 2025)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=254 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2025-08-04T13:48:59
+|_  start_date: N/A
+
+Nmap scan report for 127.20.8.7
+Host is up (0.00019s latency).
+Not shown: 65522 closed tcp ports (reset)
+PORT      STATE    SERVICE       VERSION
+135/tcp   open     msrpc         Microsoft Windows RPC
+137/tcp   filtered netbios-ns
+445/tcp   open     microsoft-ds?
+3306/tcp  open     mysql         MySQL 8.0.42
+| mysql-info: 
+|   Protocol: 10
+|   Version: 8.0.42
+|   Thread ID: 44
+|   Capabilities flags: 65535
+|   Some Capabilities: ODBCClient, Support41Auth, IgnoreSpaceBeforeParenthesis, Speaks41ProtocolOld, LongPassword, SupportsLoadDataLocal, SupportsTransactions, FoundRows, DontAllowDatabaseTableColumn, ConnectWithDatabase, IgnoreSigpipes, SupportsCompression, InteractiveClient, LongColumnFlag, SwitchToSSLAfterHandshake, Speaks41ProtocolNew, SupportsMultipleStatments, SupportsAuthPlugins, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: ;\x0BX1\x11*\x13\x16#Y=K\x14SuJ\x08\x1Bfy
+|_  Auth Plugin Name: caching_sha2_password
+| ssl-cert: Subject: commonName=MySQL_Server_8.0.42_Auto_Generated_Server_Certificate
+| Issuer: commonName=MySQL_Server_8.0.42_Auto_Generated_CA_Certificate
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-04-23T10:53:53
+| Not valid after:  2035-04-21T10:53:53
+| MD5:     dfce 708f 5626 2c5e a5ca 67d0 2f89 c6e6
+| SHA-1:   427f ed8a 963d 1e11 489b aa95 0654 cfd1 0ad4 4855
+|_SHA-256: fa8e e7ec 3e7c ebcc d098 f9d1 1ef6 6340 4460 ed75 a8ea ae5d 63db de00 2bb6 2ee5
+5040/tcp  open     unknown
+33060/tcp open     mysqlx        MySQL X protocol listener
+49664/tcp open     msrpc         Microsoft Windows RPC
+49665/tcp open     msrpc         Microsoft Windows RPC
+49668/tcp open     msrpc         Microsoft Windows RPC
+49669/tcp open     msrpc         Microsoft Windows RPC
+49672/tcp open     msrpc         Microsoft Windows RPC
+49696/tcp open     msrpc         Microsoft Windows RPC
+55385/tcp open     tcpwrapped
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.97%E=4%D=8/4%OT=135%CT=1%CU=31063%PV=Y%DS=0%DC=L%G=Y%TM=6890BA6
+OS:3%P=i686-pc-windows-windows)SEQ(SP=101%GCD=1%ISR=10A%TI=I%CI=I%II=I%SS=S
+OS:%TS=A)SEQ(SP=102%GCD=1%ISR=102%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=105%GCD=1
+OS:%ISR=10C%TI=I%CI=I%II=I%SS=S%TS=A)SEQ(SP=106%GCD=1%ISR=10A%TI=I%CI=I%II=
+OS:I%SS=S%TS=A)SEQ(SP=109%GCD=1%ISR=109%TI=I%CI=I%II=I%SS=S%TS=A)OPS(O1=MFF
+OS:D7NW8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NNT11%O4=MFFD7NW8ST11%O5=MFFD7NW8ST
+OS:11%O6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(
+OS:R=Y%DF=Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%
+OS:W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)
+OS:T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A
+OS:=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%D
+OS:F=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=Z%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=8
+OS:0%CD=Z)
+
+Uptime guess: 0.305 days (since Mon Aug  4 11:59:45 2025)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=265 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-time: 
+|   date: 2025-08-04T13:49:03
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+
+Initiating SYN Stealth Scan at 19:19
+Scanning 56 hosts [65535 ports/host]
+Discovered open port 3306/tcp on 127.20.8.9
+Discovered open port 3306/tcp on 127.20.8.10
+Discovered open port 3306/tcp on 127.20.8.11
+Discovered open port 3306/tcp on 127.20.8.12
+Discovered open port 3306/tcp on 127.20.8.13
+Discovered open port 3306/tcp on 127.20.8.14
+Discovered open port 3306/tcp on 127.20.8.15
+Discovered open port 3306/tcp on 127.20.8.16
+Discovered open port 3306/tcp on 127.20.8.17
+Discovered open port 3306/tcp on 127.20.8.18
+Discovered open port 3306/tcp on 127.20.8.21
+Discovered open port 3306/tcp on 127.20.8.22
+Discovered open port 3306/tcp on 127.20.8.23
+Discovered open port 3306/tcp on 127.20.8.24
+Discovered open port 3306/tcp on 127.20.8.25
+Discovered open port 3306/tcp on 127.20.8.26
+Discovered open port 3306/tcp on 127.20.8.27
+Discovered open port 3306/tcp on 127.20.8.28
+Discovered open port 3306/tcp on 127.20.8.29
+Discovered open port 3306/tcp on 127.20.8.30
+Discovered open port 3306/tcp on 127.20.8.31
+Discovered open port 3306/tcp on 127.20.8.32
+Discovered open port 3306/tcp on 127.20.8.33
+Discovered open port 3306/tcp on 127.20.8.34
+Discovered open port 3306/tcp on 127.20.8.35
+Discovered open port 3306/tcp on 127.20.8.36
+Discovered open port 3306/tcp on 127.20.8.37
+Discovered open port 3306/tcp on 127.20.8.38
+Discovered open port 3306/tcp on 127.20.8.39
+Discovered open port 3306/tcp on 127.20.8.40
+Discovered open port 3306/tcp on 127.20.8.43
+Discovered open port 3306/tcp on 127.20.8.44
+Discovered open port 3306/tcp on 127.20.8.45
+Discovered open port 3306/tcp on 127.20.8.46
+Discovered open port 3306/tcp on 127.20.8.47
+Discovered open port 3306/tcp on 127.20.8.48
+Discovered open port 3306/tcp on 127.20.8.49
+Discovered open port 3306/tcp on 127.20.8.50
+Discovered open port 3306/tcp on 127.20.8.51
+Discovered open port 3306/tcp on 127.20.8.52
+Discovered open port 3306/tcp on 127.20.8.53
+Discovered open port 3306/tcp on 127.20.8.54
+Discovered open port 3306/tcp on 127.20.8.55
+Discovered open port 3306/tcp on 127.20.8.56
+Discovered open port 3306/tcp on 127.20.8.57
+Discovered open port 3306/tcp on 127.20.8.58
+Discovered open port 3306/tcp on 127.20.8.59
+Discovered open port 3306/tcp on 127.20.8.60
+Discovered open port 3306/tcp on 127.20.8.61
+Discovered open port 3306/tcp on 127.20.8.62
+Discovered open port 3306/tcp on 127.20.8.63
+Discovered open port 3306/tcp on 127.20.8.8
+Discovered open port 3306/tcp on 127.20.8.19
+Discovered open port 3306/tcp on 127.20.8.20
+Discovered open port 3306/tcp on 127.20.8.41
+Discovered open port 3306/tcp on 127.20.8.42
+Discovered open port 135/tcp on 127.20.8.9
+Discovered open port 135/tcp on 127.20.8.10
+Discovered open port 135/tcp on 127.20.8.13
+Discovered open port 135/tcp on 127.20.8.14
+Discovered open port 135/tcp on 127.20.8.17
+Discovered open port 135/tcp on 127.20.8.18
+Discovered open port 135/tcp on 127.20.8.21
+Discovered open port 135/tcp on 127.20.8.22
+Discovered open port 135/tcp on 127.20.8.25
+Discovered open port 135/tcp on 127.20.8.26
+Discovered open port 135/tcp on 127.20.8.29
+Discovered open port 135/tcp on 127.20.8.30
+Discovered open port 135/tcp on 127.20.8.31
+Discovered open port 135/tcp on 127.20.8.32
+Discovered open port 135/tcp on 127.20.8.33
+Discovered open port 135/tcp on 127.20.8.34
+Discovered open port 135/tcp on 127.20.8.35
+Discovered open port 135/tcp on 127.20.8.36
+Discovered open port 135/tcp on 127.20.8.37
+Discovered open port 135/tcp on 127.20.8.38
+Discovered open port 135/tcp on 127.20.8.39
+Discovered open port 135/tcp on 127.20.8.40
+Discovered open port 135/tcp on 127.20.8.43
+Discovered open port 135/tcp on 127.20.8.44
+Discovered open port 135/tcp on 127.20.8.45
+Discovered open port 135/tcp on 127.20.8.46
+Discovered open port 135/tcp on 127.20.8.47
+Discovered open port 135/tcp on 127.20.8.48
+Discovered open port 135/tcp on 127.20.8.49
+Discovered open port 135/tcp on 127.20.8.50
+Discovered open port 135/tcp on 127.20.8.51
+Discovered open port 135/tcp on 127.20.8.52
+Discovered open port 135/tcp on 127.20.8.53
+Discovered open port 135/tcp on 127.20.8.54
+Discovered open port 135/tcp on 127.20.8.55
+Discovered open port 135/tcp on 127.20.8.56
+Discovered open port 135/tcp on 127.20.8.57
+Discovered open port 135/tcp on 127.20.8.58
+Discovered open port 135/tcp on 127.20.8.61
+Discovered open port 135/tcp on 127.20.8.62
+Discovered open port 135/tcp on 127.20.8.11
+Discovered open port 135/tcp on 127.20.8.12
+Discovered open port 135/tcp on 127.20.8.15
+Discovered open port 135/tcp on 127.20.8.16
+Discovered open port 135/tcp on 127.20.8.23
+Discovered open port 135/tcp on 127.20.8.24
+Discovered open port 135/tcp on 127.20.8.27
+Discovered open port 135/tcp on 127.20.8.28
+Discovered open port 135/tcp on 127.20.8.41
+Discovered open port 135/tcp on 127.20.8.42
+Discovered open port 135/tcp on 127.20.8.59
+Discovered open port 135/tcp on 127.20.8.60
+Discovered open port 135/tcp on 127.20.8.63
+Discovered open port 135/tcp on 127.20.8.8
+Discovered open port 135/tcp on 127.20.8.19
+Discovered open port 135/tcp on 127.20.8.20
+Discovered open port 445/tcp on 127.20.8.9
+Discovered open port 445/tcp on 127.20.8.10
+Discovered open port 445/tcp on 127.20.8.13
+Discovered open port 445/tcp on 127.20.8.14
+Discovered open port 445/tcp on 127.20.8.17
+Discovered open port 445/tcp on 127.20.8.18
+Discovered open port 445/tcp on 127.20.8.21
+Discovered open port 445/tcp on 127.20.8.22
+Discovered open port 445/tcp on 127.20.8.25
+Discovered open port 445/tcp on 127.20.8.26
+Discovered open port 445/tcp on 127.20.8.29
+Discovered open port 445/tcp on 127.20.8.30
+Discovered open port 445/tcp on 127.20.8.31
+Discovered open port 445/tcp on 127.20.8.32
+Discovered open port 445/tcp on 127.20.8.33
+Discovered open port 445/tcp on 127.20.8.34
+Discovered open port 445/tcp on 127.20.8.35
+Discovered open port 445/tcp on 127.20.8.36
+Discovered open port 445/tcp on 127.20.8.37
+Discovered open port 445/tcp on 127.20.8.38
+Discovered open port 445/tcp on 127.20.8.39
+Discovered open port 445/tcp on 127.20.8.40
+Discovered open port 445/tcp on 127.20.8.45
+Discovered open port 445/tcp on 127.20.8.46
+Discovered open port 445/tcp on 127.20.8.49
+Discovered open port 445/tcp on 127.20.8.50
+Discovered open port 445/tcp on 127.20.8.53
+Discovered open port 445/tcp on 127.20.8.54
+Discovered open port 445/tcp on 127.20.8.57
+Discovered open port 445/tcp on 127.20.8.58
+Discovered open port 445/tcp on 127.20.8.61
+Discovered open port 445/tcp on 127.20.8.62
+Discovered open port 445/tcp on 127.20.8.11
+Discovered open port 445/tcp on 127.20.8.12
+Discovered open port 445/tcp on 127.20.8.15
+Discovered open port 445/tcp on 127.20.8.16
+Discovered open port 445/tcp on 127.20.8.23
+Discovered open port 445/tcp on 127.20.8.24
+Discovered open port 445/tcp on 127.20.8.27
+Discovered open port 445/tcp on 127.20.8.28
+Discovered open port 445/tcp on 127.20.8.41
+Discovered open port 445/tcp on 127.20.8.42
+Discovered open port 445/tcp on 127.20.8.43
+Discovered open port 445/tcp on 127.20.8.44
+Discovered open port 445/tcp on 127.20.8.47
+Discovered open port 445/tcp on 127.20.8.48
+Discovered open port 445/tcp on 127.20.8.51
+Discovered open port 445/tcp on 127.20.8.52
+Discovered open port 445/tcp on 127.20.8.55
+Discovered open port 445/tcp on 127.20.8.56
+Discovered open port 445/tcp on 127.20.8.59
+Discovered open port 445/tcp on 127.20.8.60
+Discovered open port 445/tcp on 127.20.8.63
+Discovered open port 445/tcp on 127.20.8.8
+Discovered open port 445/tcp on 127.20.8.19
+Discovered open port 445/tcp on 127.20.8.20
+Discovered open port 55385/tcp on 127.20.8.10
+Discovered open port 55385/tcp on 127.20.8.14
+Discovered open port 55385/tcp on 127.20.8.18
+Discovered open port 55385/tcp on 127.20.8.22
+Discovered open port 55385/tcp on 127.20.8.26
+Discovered open port 55385/tcp on 127.20.8.30
+Discovered open port 55385/tcp on 127.20.8.34
+Discovered open port 55385/tcp on 127.20.8.38
+Discovered open port 55385/tcp on 127.20.8.46
+Discovered open port 55385/tcp on 127.20.8.50
+Discovered open port 55385/tcp on 127.20.8.54
+Discovered open port 55385/tcp on 127.20.8.58
+Discovered open port 55385/tcp on 127.20.8.62
+Discovered open port 55385/tcp on 127.20.8.42
+Discovered open port 55385/tcp on 127.20.8.9
+Discovered open port 55385/tcp on 127.20.8.13
+Discovered open port 55385/tcp on 127.20.8.17
+Discovered open port 55385/tcp on 127.20.8.21
+Discovered open port 55385/tcp on 127.20.8.25
+Discovered open port 55385/tcp on 127.20.8.29
+Discovered open port 55385/tcp on 127.20.8.33
+Discovered open port 55385/tcp on 127.20.8.37
+Discovered open port 55385/tcp on 127.20.8.45
+Discovered open port 55385/tcp on 127.20.8.49
+Discovered open port 55385/tcp on 127.20.8.53
+Discovered open port 55385/tcp on 127.20.8.57
+Discovered open port 55385/tcp on 127.20.8.61
+Discovered open port 55385/tcp on 127.20.8.41
+Discovered open port 55385/tcp on 127.20.8.31
+Discovered open port 55385/tcp on 127.20.8.35
+Discovered open port 55385/tcp on 127.20.8.39
+Discovered open port 55385/tcp on 127.20.8.43
+Discovered open port 55385/tcp on 127.20.8.47
+Discovered open port 55385/tcp on 127.20.8.11
+Discovered open port 55385/tcp on 127.20.8.15
+Discovered open port 55385/tcp on 127.20.8.23
+Discovered open port 55385/tcp on 127.20.8.27
+Discovered open port 55385/tcp on 127.20.8.51
+Discovered open port 55385/tcp on 127.20.8.55
+Discovered open port 55385/tcp on 127.20.8.59
+Discovered open port 55385/tcp on 127.20.8.63
+Discovered open port 55385/tcp on 127.20.8.19
+Discovered open port 55385/tcp on 127.20.8.32
+Discovered open port 55385/tcp on 127.20.8.12
+Discovered open port 55385/tcp on 127.20.8.16
+Discovered open port 55385/tcp on 127.20.8.24
+Discovered open port 55385/tcp on 127.20.8.28
+Discovered open port 55385/tcp on 127.20.8.36
+Discovered open port 55385/tcp on 127.20.8.40
+Discovered open port 55385/tcp on 127.20.8.44
+Discovered open port 55385/tcp on 127.20.8.48
+Discovered open port 55385/tcp on 127.20.8.8
+Discovered open port 55385/tcp on 127.20.8.20
+Discovered open port 55385/tcp on 127.20.8.52
+Discovered open port 55385/tcp on 127.20.8.56
+Discovered open port 55385/tcp on 127.20.8.60
+Discovered open port 33060/tcp on 127.20.8.9
+Discovered open port 33060/tcp on 127.20.8.13
+Discovered open port 33060/tcp on 127.20.8.21
+Discovered open port 33060/tcp on 127.20.8.25
+Discovered open port 33060/tcp on 127.20.8.45
+Discovered open port 33060/tcp on 127.20.8.61
+Discovered open port 33060/tcp on 127.20.8.17
+Discovered open port 33060/tcp on 127.20.8.29
+Discovered open port 33060/tcp on 127.20.8.49
+Discovered open port 33060/tcp on 127.20.8.53
+Discovered open port 33060/tcp on 127.20.8.57
+Discovered open port 33060/tcp on 127.20.8.33
+Discovered open port 33060/tcp on 127.20.8.37
+Discovered open port 33060/tcp on 127.20.8.41
+Discovered open port 33060/tcp on 127.20.8.10
+Discovered open port 33060/tcp on 127.20.8.18
+Discovered open port 33060/tcp on 127.20.8.22
+Discovered open port 33060/tcp on 127.20.8.34
+Discovered open port 33060/tcp on 127.20.8.38
+Discovered open port 33060/tcp on 127.20.8.14
+Discovered open port 33060/tcp on 127.20.8.26
+Discovered open port 33060/tcp on 127.20.8.30
+Discovered open port 33060/tcp on 127.20.8.50
+Discovered open port 33060/tcp on 127.20.8.46
+Discovered open port 33060/tcp on 127.20.8.54
+Discovered open port 33060/tcp on 127.20.8.42
+Discovered open port 33060/tcp on 127.20.8.62
+Discovered open port 33060/tcp on 127.20.8.58
+Discovered open port 33060/tcp on 127.20.8.12
+Discovered open port 33060/tcp on 127.20.8.40
+Discovered open port 33060/tcp on 127.20.8.44
+Discovered open port 33060/tcp on 127.20.8.48
+Discovered open port 33060/tcp on 127.20.8.60
+Discovered open port 33060/tcp on 127.20.8.8
+Discovered open port 33060/tcp on 127.20.8.28
+Discovered open port 33060/tcp on 127.20.8.32
+Discovered open port 33060/tcp on 127.20.8.36
+Discovered open port 33060/tcp on 127.20.8.52
+Discovered open port 33060/tcp on 127.20.8.16
+Discovered open port 33060/tcp on 127.20.8.24
+Discovered open port 33060/tcp on 127.20.8.56
+Discovered open port 33060/tcp on 127.20.8.20
+Discovered open port 33060/tcp on 127.20.8.11
+Discovered open port 33060/tcp on 127.20.8.35
+Discovered open port 33060/tcp on 127.20.8.39
+Discovered open port 33060/tcp on 127.20.8.31
+Discovered open port 33060/tcp on 127.20.8.47
+Discovered open port 33060/tcp on 127.20.8.51
+Discovered open port 33060/tcp on 127.20.8.15
+Discovered open port 33060/tcp on 127.20.8.27
+Discovered open port 33060/tcp on 127.20.8.43
+Discovered open port 33060/tcp on 127.20.8.23
+Discovered open port 33060/tcp on 127.20.8.59
+Discovered open port 33060/tcp on 127.20.8.63
+Discovered open port 33060/tcp on 127.20.8.19
+Discovered open port 33060/tcp on 127.20.8.55
+Discovered open port 49664/tcp on 127.20.8.13
+Discovered open port 49664/tcp on 127.20.8.37
+Discovered open port 49664/tcp on 127.20.8.45
+Discovered open port 49664/tcp on 127.20.8.53
+Discovered open port 49664/tcp on 127.20.8.57
+Discovered open port 49664/tcp on 127.20.8.9
+Discovered open port 49664/tcp on 127.20.8.29
+Discovered open port 49664/tcp on 127.20.8.41
+Discovered open port 49664/tcp on 127.20.8.49
+Discovered open port 49664/tcp on 127.20.8.61
+Discovered open port 49664/tcp on 127.20.8.17
+Discovered open port 49664/tcp on 127.20.8.21
+Discovered open port 49664/tcp on 127.20.8.25
+Discovered open port 49664/tcp on 127.20.8.33
+Discovered open port 49664/tcp on 127.20.8.18
+Discovered open port 49664/tcp on 127.20.8.22
+Discovered open port 49664/tcp on 127.20.8.38
+Discovered open port 49664/tcp on 127.20.8.14
+Discovered open port 49664/tcp on 127.20.8.34
+Discovered open port 49664/tcp on 127.20.8.50
+Discovered open port 49664/tcp on 127.20.8.10
+Discovered open port 49664/tcp on 127.20.8.26
+Discovered open port 49664/tcp on 127.20.8.30
+Discovered open port 49664/tcp on 127.20.8.42
+Discovered open port 49664/tcp on 127.20.8.46
+Discovered open port 49664/tcp on 127.20.8.54
+Discovered open port 49664/tcp on 127.20.8.62
+Discovered open port 49664/tcp on 127.20.8.58
+Discovered open port 49664/tcp on 127.20.8.52
+Discovered open port 49664/tcp on 127.20.8.40
+Discovered open port 49664/tcp on 127.20.8.28
+Discovered open port 49664/tcp on 127.20.8.35
+Discovered open port 49664/tcp on 127.20.8.36
+Discovered open port 49664/tcp on 127.20.8.39
+Discovered open port 49664/tcp on 127.20.8.44
+Discovered open port 49664/tcp on 127.20.8.48
+Discovered open port 49664/tcp on 127.20.8.56
+Discovered open port 49664/tcp on 127.20.8.60
+Discovered open port 49664/tcp on 127.20.8.8
+Discovered open port 49664/tcp on 127.20.8.12
+Discovered open port 49664/tcp on 127.20.8.31
+Discovered open port 49664/tcp on 127.20.8.32
+Discovered open port 49664/tcp on 127.20.8.11
+Discovered open port 49664/tcp on 127.20.8.23
+Discovered open port 49664/tcp on 127.20.8.27
+Discovered open port 49664/tcp on 127.20.8.43
+Discovered open port 49664/tcp on 127.20.8.47
+Discovered open port 49664/tcp on 127.20.8.51
+Discovered open port 49664/tcp on 127.20.8.15
+Discovered open port 49664/tcp on 127.20.8.19
+Discovered open port 49664/tcp on 127.20.8.24
+Discovered open port 49664/tcp on 127.20.8.16
+Discovered open port 49664/tcp on 127.20.8.59
+Discovered open port 49664/tcp on 127.20.8.63
+Discovered open port 49664/tcp on 127.20.8.20
+Discovered open port 49664/tcp on 127.20.8.55
+SYN Stealth Scan Timing: About 16.06% done; ETC: 19:22 (0:02:42 remaining)
+Discovered open port 5040/tcp on 127.20.8.13
+Discovered open port 5040/tcp on 127.20.8.17
+Discovered open port 5040/tcp on 127.20.8.9
+Discovered open port 5040/tcp on 127.20.8.21
+Discovered open port 5040/tcp on 127.20.8.37
+Discovered open port 5040/tcp on 127.20.8.61
+Discovered open port 5040/tcp on 127.20.8.25
+Discovered open port 5040/tcp on 127.20.8.41
+Discovered open port 5040/tcp on 127.20.8.29
+Discovered open port 5040/tcp on 127.20.8.57
+Discovered open port 5040/tcp on 127.20.8.45
+Discovered open port 5040/tcp on 127.20.8.49
+Discovered open port 5040/tcp on 127.20.8.33
+Discovered open port 5040/tcp on 127.20.8.53
+Discovered open port 5040/tcp on 127.20.8.18
+Discovered open port 5040/tcp on 127.20.8.22
+Discovered open port 5040/tcp on 127.20.8.14
+Discovered open port 5040/tcp on 127.20.8.26
+Discovered open port 5040/tcp on 127.20.8.38
+Discovered open port 5040/tcp on 127.20.8.30
+Discovered open port 5040/tcp on 127.20.8.34
+Discovered open port 5040/tcp on 127.20.8.10
+Discovered open port 5040/tcp on 127.20.8.42
+Discovered open port 5040/tcp on 127.20.8.46
+Discovered open port 5040/tcp on 127.20.8.50
+Discovered open port 5040/tcp on 127.20.8.62
+Discovered open port 5040/tcp on 127.20.8.54
+Discovered open port 5040/tcp on 127.20.8.58
+Discovered open port 5040/tcp on 127.20.8.16
+Discovered open port 5040/tcp on 127.20.8.8
+Discovered open port 5040/tcp on 127.20.8.12
+Discovered open port 5040/tcp on 127.20.8.28
+Discovered open port 5040/tcp on 127.20.8.60
+Discovered open port 5040/tcp on 127.20.8.20
+Discovered open port 5040/tcp on 127.20.8.36
+Discovered open port 5040/tcp on 127.20.8.40
+Discovered open port 5040/tcp on 127.20.8.56
+Discovered open port 5040/tcp on 127.20.8.24
+Discovered open port 5040/tcp on 127.20.8.52
+Discovered open port 5040/tcp on 127.20.8.32
+Discovered open port 5040/tcp on 127.20.8.44
+Discovered open port 5040/tcp on 127.20.8.48
+Discovered open port 5040/tcp on 127.20.8.27
+Discovered open port 5040/tcp on 127.20.8.35
+Discovered open port 5040/tcp on 127.20.8.15
+Discovered open port 5040/tcp on 127.20.8.23
+Discovered open port 5040/tcp on 127.20.8.19
+Discovered open port 5040/tcp on 127.20.8.31
+Discovered open port 5040/tcp on 127.20.8.39
+Discovered open port 5040/tcp on 127.20.8.11
+Discovered open port 5040/tcp on 127.20.8.43
+Discovered open port 5040/tcp on 127.20.8.51
+Discovered open port 5040/tcp on 127.20.8.63
+Discovered open port 5040/tcp on 127.20.8.47
+Discovered open port 5040/tcp on 127.20.8.55
+Discovered open port 5040/tcp on 127.20.8.59
+SYN Stealth Scan Timing: About 45.41% done; ETC: 19:23 (0:02:25 remaining)

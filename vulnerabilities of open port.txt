@@ -1,0 +1,14 @@
+Open Port : Open Port is such a door of a house which makes reason to attract thieves. In computer or server there are port which connects different - different type services to our system.
+ if port are open then hacker got to know by scanning port and may perform attack.
+What it really means : I am thinking that if we are connected to internet then we have to open port to connect to service then what the real meaning of open port vulnerability. There are two term secure and intentionally open port and it is not dangerous because we know about these port . and other is unintentionally open that are open and we are not aware about that that are dangerous.
+
+Vulnerability Of Open Port :
+1. Unauthorized Access: Open ports can act as entry points for hackers to infiltrate your network, potentially leading to the theft of sensitive data or the compromise of your systems. 
+2. Malware Distribution: Attackers can use open ports to deliver malware, such as viruses, worms, or trojans, to your system, potentially causing significant damage or data breaches. 
+3. Denial of Service (DoS) Attacks: Open ports can be targeted in DoS attacks, where an attacker floods the system with traffic, making it unavailable to legitimate users. 
+4. Compromised Devices: Open ports can be exploited to turn your devices into bots, which can be used for further attacks or to participate in botnets. 
+5. Exploitation of Vulnerabilities : Sometime even If port is open for legitimate work yet attacker attacks after scanning and finding vulnerabilities.
+
+
+
+
